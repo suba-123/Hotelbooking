@@ -137,3 +137,21 @@ color: #333;
     padding: 5%;
     color: #fff;
  }
+ .cta h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+ }
+ .cta-p{
+    font-size: 18px;
+    margin: 10px 0;
+ }
+ .cta-btn{
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+ }
