@@ -38,6 +38,11 @@ nav{
     text-decoration: none;
     font-size: 14px;
 }
+.register-btn:hover{
+    background-color: orange;
+    transform: scale(1.10);
+}
+
 .container{
     padding: 0 7%;
 }
@@ -97,9 +102,13 @@ color: #333;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 30px;
 }
+
 .exclusives div img{
     width: 100%;
     border-radius: 10px;    
+}
+.exclusives div img:hover{
+transform: scale(1.10);
 }
 .exclusives div{
     position: relative;
@@ -122,6 +131,9 @@ color: #333;
  .trending div img{
     width: 100%;
     border-radius: 10px;
+ }
+ .trending div img:hover{
+    transform: scale(1.10);
  }
  .trending h3{
     font-weight: 600;
@@ -154,6 +166,9 @@ color: #333;
     border-radius: 8px;
     margin-top: 20px;
     display: inline-block;
+ }
+ .cta-btn:hover{
+    transform: scale(1.10);
  }
  /*---about-msg---*/
  .about-msg{
