@@ -129,7 +129,7 @@ color: #333;
  }
  /*--about us--*/
  .cta{
-    margin: 80;x 0;
+    margin: 80px 0;
     background-image: linear-gradient(to right,#3f2321,transparent),url(./image/banner-image-2.png);
     background-size: cover;
     background-position: center;
