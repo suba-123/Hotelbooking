@@ -156,8 +156,7 @@ nav {
 
 /*--about us--*/
 .cta {
-    margin: 80;
-    x 0;
+    margin: 80px 0;
     background-image: linear-gradient(to right, #3f2321, transparent), url(./image/banner-image-2.png);
     background-size: cover;
     background-position: center;
@@ -453,12 +452,23 @@ nav .fav-bars{
     margin: 4px 0;
 }
 
-/* star icons not wroking... 
- .house-info i {
+.bxs-star  {
+color: #ff5361;
+font-size: 18px;
+margin: 10px 1px; 
+}
+.bxs-star-half{
     color: #ff5361;
-    font-size: 18px;
-    margin: 10px 1px; 
- } */
+font-size: 18px;
+margin: 10px 1px; 
+}
+.bx-star{
+    color: #ff5361;
+font-size: 18px;
+margin: 10px 1px; 
+}
+
+
 .house-price {
     text-align: right;
 }
@@ -484,7 +494,7 @@ nav .fav-bars{
 .sidebar {
     border: 1px solid #999;
     padding: 20px 30px;
-    morgin-top: 30px;
+    margin-top: 30px;
 }
 
 .sidebar h2 {
@@ -583,48 +593,3 @@ span {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
