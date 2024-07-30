@@ -108,6 +108,7 @@ color: #333;
     border-radius: 10px;    
 }
 .exclusives div img:hover{
+    filter: blur(2px);
 transform: scale(1.10);
 }
 .exclusives div{
@@ -119,8 +120,11 @@ transform: scale(1.10);
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: #fff;
+    color: white;
 }
+
+
+
 /*Hotels*/
  .trending{
     display: grid;
