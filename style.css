@@ -105,10 +105,11 @@ color: #333;
 
 .exclusives div img{
     width: 100%;
-    border-radius: 10px;    
+    border-radius: 10px; 
+    
 }
 .exclusives div img:hover{
-    filter: blur(2px);
+opacity: 40%;
 transform: scale(1.10);
 }
 .exclusives div{
@@ -120,9 +121,11 @@ transform: scale(1.10);
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
-    color: white;
+    color: black;
 }
-
+.exclusives div span p{
+    font-weight: 600;
+}
 
 
 /*Hotels*/
